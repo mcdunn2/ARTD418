@@ -1,5 +1,5 @@
 anime({
-  targets: document.getElementbyId("st0"),
+  targets: document.getElementbyId("circle1"),
   left: '240px',
   backgroundColor: '#FFF',
   borderRadius: ['0%', '50%'],

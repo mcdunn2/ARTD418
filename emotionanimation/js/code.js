@@ -1,7 +1,5 @@
 anime({
-  targets: document.getElementbyId("circle1"),
-  left: '240px',
-  backgroundColor: '#FFF',
-  borderRadius: ['0%', '50%'],
-  easing: 'easeInOutQuad'
+  targets: document.getElementByID("circle1"),
+  translateX: 250, // -> '250px'
+  rotate: 540 // -> '540deg'
 });

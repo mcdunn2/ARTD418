@@ -1,3 +1,5 @@
+console.log(circle1)
+
 anime({
   targets: document.getElementByID("circle1"),,
   translateX: 250,

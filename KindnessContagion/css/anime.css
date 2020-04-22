@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.anim, .anim svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.anim path {
+  stroke-width: 2;
+}
+
+.images
+{
+display: inline;
+margin: 0px;
+padding: 0px;
+}
+
+#content
+{
+display: block;
+margin: 0px;
+padding: 0px;
+position: fixed;
+top: 90px;
+height: auto;
+max-width: auto;
+overflow-y: hidden;
+overflow-x:auto;
+top-padding: 20%;
+}
+
+.logo
+{
+display: relative;
+padding-left: 400px;
+}
